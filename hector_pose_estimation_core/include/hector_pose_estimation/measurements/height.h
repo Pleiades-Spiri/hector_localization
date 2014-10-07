@@ -46,6 +46,8 @@ public:
 
   void setElevation(double elevation) { elevation_ = elevation; }
   double getElevation() const { return elevation_; }
+  
+  void setStdDev(double stddev) { stddev_ = stddev; parameters().add("stddev", stddev); }
 
 protected:
   double stddev_;
@@ -76,6 +78,8 @@ public:
 
   void setElevation(double elevation) { getModel()->setElevation(elevation); }
   double getElevation() const { return getModel()->getElevation(); }
+  
+  void setStdDev(double stddev) { getModel()->setStdDev(stddev); }
 
   virtual void onReset();
   virtual bool prepareUpdate(State &state, const Update &update);
