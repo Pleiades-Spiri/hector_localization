@@ -39,7 +39,7 @@ template class Measurement_<HeightModel>;
 
 HeightModel::HeightModel()
 {
-  stddev_ = 10.0;
+  stddev_ = 0.01;
   elevation_ = 0.0;
   parameters().add("stddev", stddev_);
 }
