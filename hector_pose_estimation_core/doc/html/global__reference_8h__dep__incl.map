@@ -1,0 +1,9 @@
+<map id="include/hector_pose_estimation/global_reference.h" name="include/hector_pose_estimation/global_reference.h">
+<area shape="rect" id="node2" href="$gps_8h.html" title="include/hector_pose\l_estimation/measurements/gps.h" alt="" coords="5,103,219,145"/>
+<area shape="rect" id="node3" href="$gps_8cpp.html" title="src/measurements/gps.cpp" alt="" coords="47,200,227,227"/>
+<area shape="rect" id="node4" href="$magnetic_8h.html" title="include/hector_pose\l_estimation/measurements\l/magnetic.h" alt="" coords="295,96,473,152"/>
+<area shape="rect" id="node6" href="$global__reference_8cpp.html" title="src/global_reference.cpp" alt="" coords="498,111,661,137"/>
+<area shape="rect" id="node7" href="$height_8cpp.html" title="src/measurements/height.cpp" alt="" coords="687,111,881,137"/>
+<area shape="rect" id="node8" href="$pose__estimation_8cpp.html" title="src/pose_estimation.cpp" alt="" coords="906,111,1069,137"/>
+<area shape="rect" id="node5" href="$magnetic_8cpp.html" title="src/measurements/magnetic.cpp" alt="" coords="278,200,489,227"/>
+</map>

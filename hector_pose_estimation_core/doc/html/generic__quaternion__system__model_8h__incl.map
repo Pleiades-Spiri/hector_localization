@@ -1,0 +1,17 @@
+<map id="include/hector_pose_estimation/system/generic_quaternion_system_model.h" name="include/hector_pose_estimation/system/generic_quaternion_system_model.h">
+<area shape="rect" id="node2" href="$system__model_8h.html" title="hector_pose_estimation\l/system_model.h" alt="" coords="1647,291,1805,333"/>
+<area shape="rect" id="node30" href="$imu__input_8h.html" title="hector_pose_estimation\l/system/imu_input.h" alt="" coords="2341,291,2500,333"/>
+<area shape="rect" id="node32" href="$imu__model_8h.html" title="hector_pose_estimation\l/system/imu_model.h" alt="" coords="1860,110,2019,151"/>
+<area shape="rect" id="node3" href="$model_8h.html" title="hector_pose_estimation\l/model.h" alt="" coords="1463,382,1621,423"/>
+<area shape="rect" id="node27" href="$substate_8h.html" title="hector_pose_estimation\l/substate.h" alt="" coords="1647,382,1805,423"/>
+<area shape="rect" id="node28" href="$input_8h.html" title="hector_pose_estimation\l/input.h" alt="" coords="1931,382,2089,423"/>
+<area shape="rect" id="node29" href="$system__model_8inl.html" title="system_model.inl" alt="" coords="1315,389,1439,416"/>
+<area shape="rect" id="node4" href="$parameters_8h.html" title="hector_pose_estimation\l/parameters.h" alt="" coords="211,473,369,514"/>
+<area shape="rect" id="node10" href="$types_8h.html" title="hector_pose_estimation\l/types.h" alt="" coords="2213,563,2372,605"/>
+<area shape="rect" id="node18" href="$state_8h.html" title="hector_pose_estimation\l/state.h" alt="" coords="1555,473,1713,514"/>
+<area shape="rect" id="node11" href="$matrix_8h.html" title="hector_pose_estimation\l/matrix.h" alt="" coords="2471,654,2629,695"/>
+<area shape="rect" id="node14" href="$collection_8h.html" title="hector_pose_estimation\l/collection.h" alt="" coords="1948,654,2107,695"/>
+<area shape="rect" id="node33" href="$system_8h.html" title="hector_pose_estimation\l/system.h" alt="" coords="1903,201,2061,242"/>
+<area shape="rect" id="node34" href="$filter_8h.html" title="hector_pose_estimation\l/filter.h" alt="" coords="2213,382,2372,423"/>
+<area shape="rect" id="node36" href="$system_8inl.html" title="system.inl" alt="" coords="2056,299,2137,325"/>
+</map>
