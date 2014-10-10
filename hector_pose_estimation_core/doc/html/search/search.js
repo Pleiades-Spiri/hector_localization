@@ -16,7 +16,8 @@ var indexSectionsWithContent =
   6: "abcdghilmnopqrstuvwz",
   7: "isv",
   8: "abdgmpqrstuvwxyz",
-  9: "afhmsv"
+  9: "afhmsv",
+  10: "o"
 };
 
 var indexSectionNames =
@@ -30,7 +31,8 @@ var indexSectionNames =
   6: "typedefs",
   7: "enums",
   8: "enumvalues",
-  9: "defines"
+  9: "defines",
+  10: "pages"
 };
 
 function convertToId(search)
