@@ -383,7 +383,7 @@ void GenericQuaternionSystemModel::getInputJacobian(InputMatrix& B, const State&
 SystemStatus GenericQuaternionSystemModel::getStatusFlags(const State& state)
 {
   SystemStatus flags = state.getMeasurementStatus();
-//     flags |= STATE_POSITION_XY | STATE_POSITION_Z;
+  flags |= STATE_POSITION_XY | STATE_POSITION_Z; // WARNING! Uncommented by Arnold. This might break things badly!!!
   if (flags & STATE_POSITION_XY) flags |= STATE_VELOCITY_XY;
   if (flags & STATE_POSITION_Z)  flags |= STATE_VELOCITY_Z;
   if (flags & STATE_VELOCITY_XY) flags |= STATE_ROLLPITCH;

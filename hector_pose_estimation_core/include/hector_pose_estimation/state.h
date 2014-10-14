@@ -45,9 +45,9 @@
 #include <sensor_msgs/NavSatFix.h>
 
 // Use system model with angular rates.
-// #define USE_RATE_SYSTEM_MODEL
+#define USE_RATE_SYSTEM_MODEL
 
-// #define VELOCITY_IN_BODY_FRAME
+//#define VELOCITY_IN_BODY_FRAME
 #define VELOCITY_IN_WORLD_FRAME
 
 namespace hector_pose_estimation {

@@ -52,6 +52,8 @@ public:
 
   void setReference(const GlobalReference::Heading &reference_heading);
   bool hasMagnitude() const { return magnitude_ != 0.0; }
+  
+  void setStdDev(double stddev) { stddev_ = stddev; parameters().add("stddev", stddev); }
 
 protected:
   double stddev_;
@@ -77,6 +79,8 @@ public:
   virtual NoiseVariance const& getVariance(const Update &update, const State&);
 
   virtual bool prepareUpdate(State &state, const Update &update);
+  
+  void setStdDev(double stddev) { getModel()->setStdDev(stddev); }
 
 private:
   bool auto_heading_;
